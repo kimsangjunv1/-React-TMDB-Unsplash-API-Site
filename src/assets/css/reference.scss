@@ -13,6 +13,7 @@
     
     li{
         border-bottom: 1px solid var(--bg-dark-border);
+        padding: 10px;
         a{
             display: flex;
             align-items: center;
@@ -23,6 +24,12 @@
             span{
                 display: inline-block;
                 padding: 15px 20px;
+                color: #fff;
+                margin-bottom: 10px;
+
+                &:last-child{
+                    margin-bottom: 0px;
+                }
             }
 
             .num {
