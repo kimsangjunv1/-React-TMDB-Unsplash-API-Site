@@ -1,127 +1,125 @@
 {
-  "type": "css",
-  "cssReference":[
-      {
-          "num": 4,
-          "title": "accent-color",
-          "desc": "일부 요소가 생성하는 사용자 인터페이스 컨트롤의 강조색을 지정합니다.",
-          "descBasic": "accent-color : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★★★★✩",
-          "definition": [
-              "일부 요소가 생성하는 사용자 인터페이스 컨트롤의 강조색을 지정합니다."
-          ]
-      },
-      {
-          "num": 2,
-          "title": "align-content",
-          "desc": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
-          "descBasic": "align-content : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★★★★★",
-          "definition": [
-              "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
-              "align-content 속성은 한 줄(flex-wrap:none descBasic)에서는 의미가 없습니다."
-          ]
-      },
-      {
-          "num": 3,
-          "title": "align-items",
-          "desc": "flex나 grid의 위치를 설정합니다.",
-          "descBasic": "align-items : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★★★★★",
-          "definition": [
-              "flex나 grid의 위치를 설정합니다."
-          ]
-      },
-      {
-          "num": 4,
-          "title": "align-self",
-          "desc": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
-          "descBasic": "align-content : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★★★✩✩",
-          "definition": [
-              "특정 아이템의 정렬을 따로 정하고 싶을 때 사용합니다",
-              "기본값은 align-items 속성의 값을 상속 받습니다."
-          ]
-      },
-      {
-          "num": 5,
-          "title": "all",
-          "desc": "all 요소의 속성을 초기화 또는 상속을 설정합니다.",
-          "descBasic": "all : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★★★★✩",
-          "definition": [
-              "all 요소의 속성을 초기화 또는 상속을 설정합니다."
-          ]
-      },
-      {
-          "num": 6,
-          "title": "animation",
-          "desc": "animation 애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
-          "descBasic": "animation : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★★✩✩✩",
-          "definition": [
-              "animation 애니메이션과 관련된 속성을 일괄적으로 설정합니다."
-          ]
-      },
-      {
-          "num": 7,
-          "title": "animation-delay",
-          "desc": "animation-delay 애니메이션 지연 시간을 설정합니다.",
-          "descBasic": "animation-delay : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★★★★✩",
-          "definition": [
-              "애니메이션 지연 시간을 설정합니다."
-          ]
-      },
-      {
-          "num": 8,
-          "title": "animation-direction",
-          "desc": "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
-          "descBasic": "animation-direction : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★★★★★",
-          "definition": [
-              "animation-direction 애니메이션 움직임 방향을 설정합니다."
-          ]
-      },
-      {
-          "num": 9,
-          "title": "animation-duration",
-          "desc": "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
-          "descBasic": "animation-duration : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★✩✩✩✩",
-          "definition": [
-              "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다."
-          ]
-      },
-      {
-          "num": 10,
-          "title": "animation-fill-mode",
-          "desc": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
-          "descBasic": "animation-fill-mode : stretch",
-          "descApple": "flexbox",
-          "descVer": "CSS3",
-          "descStar": "★★★★✩",
-          "definition": [
-              "animation-fill-mode 애니메이션이 끝난 후의 상태를 설정합니다."
-          ]
-      }
-  ]
+    "type": "css",
+    "cssReference":[
+        {
+            "num": 1,
+            "title": "outline-color",
+            "desc": "외곽선의 색상을 설정합니다",
+            "descBasic": "outline-color : red",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★✩",
+            "definition": [
+                "외곽선의 색상을 설정합니다"
+            ]
+        },
+        {
+            "num": 2,
+            "title": "right",
+            "desc": "해당 태그 위치를 우측 기준으로 어디에 위치시킬지 지정합니다.",
+            "descBasic": "right : 10px",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★★",
+            "definition": [
+                "해당 태그 위치를 우측 기준으로 어디에 위치시킬지 지정합니다."
+            ]
+        },
+        {
+            "num": 3,
+            "title": "z-index",
+            "desc": "요소의 위치가 겹칠 경우 순서를 정의합니다.",
+            "descBasic": "z-index : 10",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★★",
+            "definition": [
+                "요소의 위치가 겹칠 경우 순서를 정의합니다."
+            ]
+        },
+        {
+            "num": 4,
+            "title": "top",
+            "desc": "해당 태그 위치를 위측 기준으로 어디에 위치시킬지 지정합니다.",
+            "descBasic": "top : stretch",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★✩✩",
+            "definition": [
+                "해당 태그 위치를 위측 기준으로 어디에 위치시킬지 지정합니다."
+            ]
+        },
+        {
+            "num": 5,
+            "title": "touch-action",
+            "desc": "터치스크린 사용자가 요소의 영역을 조작하는 방법을 설정합니다.",
+            "descBasic": "touch-action : auto",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★✩",
+            "definition": [
+                "터치스크린 사용자가 요소의 영역을 조작하는 방법을 설정합니다."
+            ]
+        },
+        {
+            "num": 6,
+            "title": "transform",
+            "desc": "컨텐츠 요소를 이동(translate), 회전(rotate), 확대(scale), 기울기(skew) 등의 효과를 줄 수 있습니다. 애니메이션 작업시 가장 많이 쓰는 요소입니다.",
+            "descBasic": "transform : translate(-50%, -50%)",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★✩✩✩",
+            "definition": [
+                "컨텐츠 요소를 이동(translate), 회전(rotate), 확대(scale), 기울기(skew) 등의 효과를 줄 수 있습니다. 애니메이션 작업시 가장 많이 쓰는 요소입니다."
+            ]
+        },
+        {
+            "num": 7,
+            "title": "transition",
+            "desc": "애니메이션 속도를 조절합니다.",
+            "descBasic": "transition : 0.25s",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★✩",
+            "definition": [
+                "애니메이션 속도를 조절합니다."
+            ]
+        },
+        {
+            "num": 8,
+            "title": "visibility",
+            "desc": "요소를 보이지 않게 정의합니다.",
+            "descBasic": "visibility : none",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★★",
+            "definition": [
+                "visibility 애니메이션 움직임 방향을 설정합니다."
+            ]
+        },
+        {
+            "num": 9,
+            "title": "width",
+            "desc": "요소의 너비를 설정합니다.",
+            "descBasic": "width : 10px",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★✩✩✩✩",
+            "definition": [
+                "요소의 너비를 설정합니다."
+            ]
+        },
+        {
+            "num": 10,
+            "title": "word-break",
+            "desc": "텍스트의 단어 구분을 설정합니다.",
+            "descBasic": "word-break : keep all",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★✩",
+            "definition": [
+                "텍스트의 단어 구분을 설정합니다."
+            ]
+        }
+    ]
 }
