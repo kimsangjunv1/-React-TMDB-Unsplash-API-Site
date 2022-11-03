@@ -1,13 +1,13 @@
 .main__inner {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   height: 100vh;
   color: var(--white);
 
   > div {
-    font-size: 8vw;
+    font-size: 10vw;
     line-height: 0.9;
     text-transform: uppercase;
   }
