@@ -12,10 +12,12 @@ const Reference = () => {
   //       변수 ,   함수(set + 이름)
   const [references, setReferences] = useState([]);
   useEffect(() => {
-    fetch("https://webstoryboy.github.io/react2022/src/assets/json/refer.json")
+    fetch(
+      "https://raw.githubusercontent.com/kimsangjunv1/react_api/main/src/utis/favoritefood.json"
+    )
       .then((response) => response.json())
-      // .then((result) => console.log(result.data.htmlRefer))
-      .then((result) => setReferences(result.data.htmlRefer))
+      // .then((result) => console.log(result))
+      .then((result) => setReferences(result.cssReference))
       .catch((error) => console.log("error", error));
   }, []);
 
