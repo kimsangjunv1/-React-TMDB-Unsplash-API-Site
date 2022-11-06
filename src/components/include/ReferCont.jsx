@@ -1,10 +1,20 @@
 import React from "react";
 // console.log(references);
-const ReferText = ({ num, title, descBasic, descApple, descVer, descStar, definition }) => {
+const ReferText = ({
+  num,
+  title,
+  desc,
+  descBasic,
+  descApple,
+  descVer,
+  descStar,
+  definition,
+}) => {
   return (
     <li>
       <span>{num}</span>
       <span>{title}</span>
+      <span>{desc}</span>
       <span>{descBasic}</span>
       <span>{descApple}</span>
       <span>{descVer}</span>
@@ -26,6 +36,7 @@ const ReferCont = ({ references }) => {
                 key={idx}
                 num={refer.num}
                 title={refer.title}
+                desc={refer.desc}
                 descBasic={refer.descBasic}
                 descApple={refer.descApple}
                 descVer={refer.descVer}

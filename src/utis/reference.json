@@ -1,6 +1,6 @@
 {
   "type": "css",
-  "cssRefer": [
+  "cssReference": [
     {
       "num": 1,
       "title": "accent-color",
