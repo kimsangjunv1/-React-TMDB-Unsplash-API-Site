@@ -4,7 +4,7 @@ const ReferText = ({
   num,
   title,
   desc,
-  descBasic,
+  // descBasic,
   descApple,
   descVer,
   descStar,
@@ -15,7 +15,7 @@ const ReferText = ({
       <span>{num}</span>
       <span>{title}</span>
       <span>{desc}</span>
-      <span>{descBasic}</span>
+      {/* <span>{descBasic}</span> */}
       <span>{descApple}</span>
       <span>{descVer}</span>
       <span>{descStar}</span>
@@ -37,7 +37,7 @@ const ReferCont = ({ references }) => {
                 num={refer.num}
                 title={refer.title}
                 desc={refer.desc}
-                descBasic={refer.descBasic}
+                // descBasic={refer.descBasic}
                 descApple={refer.descApple}
                 descVer={refer.descVer}
                 descStar={refer.descStar}
