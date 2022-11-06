@@ -6,7 +6,6 @@ const ReferText = ({ num, title, descBasic, descApple, descVer, descStar, defini
       <span>{num}</span>
       <span>{title}</span>
       <span>{descBasic}</span>
-      <span>{descBasic}</span>
       <span>{descApple}</span>
       <span>{descVer}</span>
       <span>{descStar}</span>

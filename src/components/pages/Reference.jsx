@@ -13,7 +13,7 @@ const Reference = () => {
   const [references, setReferences] = useState([]);
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/kimsangjunv1/react_api/main/src/utis/favoritefood.json"
+      "https://raw.githubusercontent.com/kimsangjunv1/react_api/main/src/utis/reference.json"
     )
       .then((response) => response.json())
       // .then((result) => console.log(result))
