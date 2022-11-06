@@ -8,7 +8,7 @@ const ReferText = ({
   descApple,
   descVer,
   descStar,
-  definition,
+  // definition,
 }) => {
   return (
     <li>
@@ -19,7 +19,7 @@ const ReferText = ({
       <span>{descApple}</span>
       <span>{descVer}</span>
       <span>{descStar}</span>
-      <span>{definition}</span>
+      {/* <span>{definition}</span> */}
     </li>
   );
 };
@@ -41,7 +41,7 @@ const ReferCont = ({ references }) => {
                 descApple={refer.descApple}
                 descVer={refer.descVer}
                 descStar={refer.descStar}
-                definition={refer.definition}
+                // definition={refer.definition}
               />
             ))}
           </ul>
