@@ -1,0 +1,125 @@
+{
+    "type": "css",
+    "cssReference":[
+        {
+            "num": 1,
+            "title": "outline-color",
+            "desc": "외곽선의 색상을 설정합니다",
+            "descBasic": "outline-color : red",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★✩",
+            "definition": [
+                "외곽선의 색상을 설정합니다"
+            ]
+        },
+        {
+            "num": 2,
+            "title": "right",
+            "desc": "해당 태그 위치를 우측 기준으로 어디에 위치시킬지 지정합니다.",
+            "descBasic": "right : 10px",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★★",
+            "definition": [
+                "해당 태그 위치를 우측 기준으로 어디에 위치시킬지 지정합니다."
+            ]
+        },
+        {
+            "num": 3,
+            "title": "z-index",
+            "desc": "요소의 위치가 겹칠 경우 순서를 정의합니다.",
+            "descBasic": "z-index : 10",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★★",
+            "definition": [
+                "요소의 위치가 겹칠 경우 순서를 정의합니다."
+            ]
+        },
+        {
+            "num": 4,
+            "title": "top",
+            "desc": "해당 태그 위치를 위측 기준으로 어디에 위치시킬지 지정합니다.",
+            "descBasic": "top : stretch",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★✩✩",
+            "definition": [
+                "해당 태그 위치를 위측 기준으로 어디에 위치시킬지 지정합니다."
+            ]
+        },
+        {
+            "num": 5,
+            "title": "touch-action",
+            "desc": "터치스크린 사용자가 요소의 영역을 조작하는 방법을 설정합니다.",
+            "descBasic": "touch-action : auto",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★✩",
+            "definition": [
+                "터치스크린 사용자가 요소의 영역을 조작하는 방법을 설정합니다."
+            ]
+        },
+        {
+            "num": 6,
+            "title": "transform",
+            "desc": "컨텐츠 요소를 이동(translate), 회전(rotate), 확대(scale), 기울기(skew) 등의 효과를 줄 수 있습니다. 애니메이션 작업시 가장 많이 쓰는 요소입니다.",
+            "descBasic": "transform : translate(-50%, -50%)",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★✩✩✩",
+            "definition": [
+                "컨텐츠 요소를 이동(translate), 회전(rotate), 확대(scale), 기울기(skew) 등의 효과를 줄 수 있습니다. 애니메이션 작업시 가장 많이 쓰는 요소입니다."
+            ]
+        },
+        {
+            "num": 7,
+            "title": "transition",
+            "desc": "애니메이션 속도를 조절합니다.",
+            "descBasic": "transition : 0.25s",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★✩",
+            "definition": [
+                "애니메이션 속도를 조절합니다."
+            ]
+        },
+        {
+            "num": 8,
+            "title": "visibility",
+            "desc": "요소를 보이지 않게 정의합니다.",
+            "descBasic": "visibility : none",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★★",
+            "definition": [
+                "visibility 애니메이션 움직임 방향을 설정합니다."
+            ]
+        },
+        {
+            "num": 9,
+            "title": "width",
+            "desc": "요소의 너비를 설정합니다.",
+            "descBasic": "width : 10px",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★✩✩✩✩",
+            "definition": [
+                "요소의 너비를 설정합니다."
+            ]
+        },
+        {
+            "num": 10,
+            "title": "word-break",
+            "desc": "텍스트의 단어 구분을 설정합니다.",
+            "descBasic": "word-break : keep all",
+            "descApple": "flexbox",
+            "descVer": "CSS3",
+            "descStar": "★★★★✩",
+            "definition": [
+                "텍스트의 단어 구분을 설정합니다."
+            ]
+        }
+    ]
+}

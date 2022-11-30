@@ -1,0 +1,21 @@
+.cont__unsplash{
+  ul{
+    column-count: 4;
+    column-gap: 20px;
+    width: 100%;
+
+    li{
+      margin-bottom: 20px;
+
+      img{
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .unsplash__inner{
+    .swiper-slide{
+      width: 100% !important;
+    }
+  }
+}
