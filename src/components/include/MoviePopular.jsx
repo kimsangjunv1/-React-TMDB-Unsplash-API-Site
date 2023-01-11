@@ -22,7 +22,7 @@ function MoviePopularItem(props) {
             src={`https://image.tmdb.org/t/p/w500${props.moviesPopular.poster_path}`}
             alt={props.original_title}
           />
-          <div class="movie__desc">
+          <div className="movie__desc">
             <span className="title">
               {props.moviesPopular.original_language}
             </span>
@@ -63,6 +63,9 @@ function MoviePopular(props) {
               <MoviePopularItem key={index} moviesPopular={moviesPopular} />
             </SwiperSlide>
           ))}
+          <SwiperSlide>
+            <div>2</div>
+          </SwiperSlide>
         </Swiper>
         {/* <Swiper
           slidesPerView={"auto"}
