@@ -17,9 +17,9 @@ const Header = () => {
       </h1>
       <div className="header__right">
         <ul>
-          <li>
+          {/* <li>
             <Link to="/youtube">Youtube</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/movie">Movie</Link>
           </li>
