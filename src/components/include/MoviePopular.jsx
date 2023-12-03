@@ -21,14 +21,15 @@ function MoviePopular(props) {
   console.log(props.moviesPopular);
   return (
     <section className="cont__popular__movie">
-      <div className="container">
+      {/* <div className="container"> */}
+      <h1>Popular Movies</h1>
         <div className="movie__popular_inner">
           <ul>
             {props.moviesPopular.map((moviesPopular, index) => (
               <MoviePopularItem key={index} moviesPopular={moviesPopular} />
             ))}
           </ul>
-        </div>
+        {/* </div> */}
       </div>
     </section>
   );
