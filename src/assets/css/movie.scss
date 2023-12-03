@@ -64,8 +64,6 @@
     color: var(--white);
   }
 }
-<<<<<<< HEAD
-=======
 // swiper
 .swiper {
   width: 100%;
@@ -100,7 +98,6 @@
     }
   }
 }
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
 
 .movie__search {
   margin-bottom: 100px;
@@ -143,37 +140,6 @@
   }
 }
 
-<<<<<<< HEAD
-
-.cont__popular__movie{
-  margin-top: 200px;
-  position: relative;
-
-    &::before,
-    &::after{
-      content: '';
-      position: absolute;
-    }
-    &::before{
-      background: linear-gradient(90deg, rgb(0, 0, 0), transparent);
-      width: 230px;
-      height: 100%;
-      left: 0;
-      top: 0;
-    }
-    &::after{
-      background: linear-gradient(-90deg, rgb(0, 0, 0), transparent);
-      width: 230px;
-      height: 100%;
-      right: 0;
-      top: 0;
-    }
-  
-
-  &::before{
-    position: absolute;
-    content: '';
-=======
 .cont__popular__movie {
   margin-top: 200px;
   position: relative;
@@ -208,7 +174,6 @@
   &::before {
     position: absolute;
     content: "";
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
     top: -360px;
     left: 50%;
     width: 258px;
@@ -219,11 +184,6 @@
     transform: translate(-50%, 0);
   }
 }
-<<<<<<< HEAD
-.movie__popular_inner{
-  // overflow-x:scroll;
-  ul{
-=======
 .movie__popular_inner {
   div {
     // width: 70%;
@@ -240,65 +200,23 @@
   }
   // overflow-x:scroll;
   ul {
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
     display: flex;
     padding: 0 50vw;
     scroll-snap-type: x mandatory;
     overflow-y: scroll;
-<<<<<<< HEAD
-    li{
-=======
     li {
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
       scroll-snap-align: center;
       object-fit: cover;
       margin: 55px;
       // height: 500px;
       position: relative;
-<<<<<<< HEAD
-      a{
-        span{
-=======
       a {
         span {
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
           font-size: 22px;
           color: #fff;
           display: block;
           text-align: center;
 
-<<<<<<< HEAD
-          &:nth-child(3){
-            font-size: 28px;
-
-          }
-        }
-      }
-      img{
-        width: 33vh;
-      }
-
-      &:nth-child(20){&::before{content: '20';}}
-      &:nth-child(19){&::before{content: '19';}}
-      &:nth-child(18){&::before{content: '18';}}
-      &:nth-child(17){&::before{content: '17';}}
-      &:nth-child(16){&::before{content: '16';}}
-      &:nth-child(15){&::before{content: '15';}}
-      &:nth-child(14){&::before{content: '14';}}
-      &:nth-child(13){&::before{content: '13';}}
-      &:nth-child(12){&::before{content: '12';}}
-      &:nth-child(11){&::before{content: '11';}}
-      &:nth-child(10){&::before{content: '10';}}
-      &:nth-child(9){&::before{content: '9';}}
-      &:nth-child(8){&::before{content: '8';}}
-      &:nth-child(7){&::before{content: '7';}}
-      &:nth-child(6){&::before{content: '6';}}
-      &:nth-child(5){&::before{content: '5';}}
-      &:nth-child(4){&::before{content: '4';}}
-      &:nth-child(3){&::before{content: '3';}}
-      &:nth-child(2){&::before{content: '2';}}
-      &:nth-child(1){&::before{content: '1';}}
-=======
           &:nth-child(3) {
             font-size: 28px;
           }
@@ -408,7 +326,6 @@
           content: "1";
         }
       }
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
 
       &:nth-child(20),
       &:nth-child(19),
@@ -429,13 +346,8 @@
       &:nth-child(4),
       &:nth-child(3),
       &:nth-child(2),
-<<<<<<< HEAD
-      &:nth-child(1){
-        &::before{
-=======
       &:nth-child(1) {
         &::before {
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
           // content: '1';
           position: absolute;
           top: -10px;
@@ -451,11 +363,7 @@
           border-top: 2px solid #ffffff4a;
           box-shadow: 0px 10px #6b192a63;
         }
-<<<<<<< HEAD
-        &::after{
-=======
         &::after {
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
           /* position: absolute; */
           content: "";
           height: 0;
@@ -471,8 +379,4 @@
       }
     }
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e

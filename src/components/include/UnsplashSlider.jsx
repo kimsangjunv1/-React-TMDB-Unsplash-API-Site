@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation } from "swiper/modules";
 
 const UnsplashItem = ({ image }) => {
   return (
@@ -23,36 +23,34 @@ const UnsplashItem = ({ image }) => {
   );
 };
 
-const UnsplashSlider = ({random}) => {
+const UnsplashSlider = ({ random }) => {
   return (
     <section className="cont__unsplash">
       <div className="container">
         <div className="unsplash__inner">
-
-        <Swiper
-        pagination={{
-          type: "progressbar",
-          autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-          },
-        }}
-        
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
-        a
-      >
-          {random.map((image, index) => (
-            <SwiperSlide>
-              <UnsplashItem key={index} image={image} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+          <Swiper
+            pagination={{
+              type: "progressbar",
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+            }}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className="mySwiper"
+            a
+          >
+            {random.map((image, index) => (
+              <SwiperSlide>
+                <UnsplashItem key={index} image={image} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default UnsplashSlider
+export default UnsplashSlider;

@@ -1,9 +1,6 @@
 import React from "react";
 
 const AboutCont = () => {
-<<<<<<< HEAD
-  return <section className="cont__about">cont__about</section>;
-=======
   return (
     <section className="cont__about">
       <div className="container">
@@ -140,7 +137,6 @@ const AboutCont = () => {
       </div>
     </section>
   );
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
 };
 
 export default AboutCont;

@@ -13,11 +13,7 @@ const Header = () => {
         </ul>
       </div>
       <h1 className="header__center">
-<<<<<<< HEAD
-        <Link to="/">API site</Link>
-=======
         <Link to="/">API Factory</Link>
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
       </h1>
       <div className="header__right">
         <ul>

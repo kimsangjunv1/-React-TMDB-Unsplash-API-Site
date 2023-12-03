@@ -1,18 +1,9 @@
 import React from "react";
-<<<<<<< HEAD
-=======
 import { useState, useEffect } from "react";
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
 import Header from "../layout/Header";
 import Contents from "../layout/Contents";
 import Footer from "../layout/Footer";
 import Title from "../layout/Title";
-<<<<<<< HEAD
-import AboutCont from "../include/AboutCont";
-import Contact from "../layout/Contact";
-
-const Unsplash = () => {
-=======
 import UnsplashCont from "../include/UnsplashCont";
 import UnsplashSearch from "../include/UnsplashSearch";
 import UnsplashSlider from "../include/UnsplashSlider";
@@ -49,31 +40,20 @@ const Unsplash = () => {
       // .then((result) => console.log(result))
       .catch((error) => console.log(error));
   }, []);
-  
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
+
   return (
     <>
       <Header />
       <Contents>
-<<<<<<< HEAD
-        <Title title={["unsplash", "reference api"]} />
-        <AboutCont />
-=======
         <Title title={["Unsplash", "reference API"]} />
         <UnsplashSlider random={random} />
         <UnsplashSearch onSearch={search} />
         <UnsplashBtn />
         <UnsplashCont images={images} />
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
         <Contact />
       </Contents>
       <Footer />
     </>
   );
 };
-<<<<<<< HEAD
-
 export default Unsplash;
-=======
-export default Unsplash;
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e

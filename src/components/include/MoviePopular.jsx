@@ -1,20 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-
-function MoviePopularItem(props) {
-  return (
-    <li>
-      <a href={`https://www.themoviedb.org/movie/${props.moviesPopular.id}`}>
-        {/* <img src="" alt="" /> */}
-        <img
-          src={`https://image.tmdb.org/t/p/w500${props.moviesPopular.poster_path}`}
-          alt={props.original_title}
-        />
-        <span className="title">{props.moviesPopular.original_title}</span>
-        <span className="star">{props.moviesPopular.vote_average}</span>
-      </a>
-    </li>
-=======
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -26,7 +10,7 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Pagination } from "swiper/modules";
 
 function MoviePopularItem(props) {
   return (
@@ -47,7 +31,6 @@ function MoviePopularItem(props) {
         </a>
       </li>
     </>
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
   );
 }
 
@@ -58,15 +41,6 @@ function MoviePopular(props) {
     <section className="cont__popular__movie">
       {/* <div className="container"> */}
       <h1>Popular Movies</h1>
-<<<<<<< HEAD
-        <div className="movie__popular_inner">
-          <ul>
-            {props.moviesPopular.map((moviesPopular, index) => (
-              <MoviePopularItem key={index} moviesPopular={moviesPopular} />
-            ))}
-          </ul>
-        {/* </div> */}
-=======
       <div className="movie__popular_inner">
         <Swiper
           effect={"coverflow"}
@@ -107,7 +81,6 @@ function MoviePopular(props) {
             ))}
           </ul>
         </Swiper> */}
->>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
       </div>
     </section>
   );
