@@ -15,8 +15,13 @@ const Movie = () => {
   // 4번 : 콜백함수로 밑에서 처리한거 보낸 뒤 moviesPopular(저장소)로 보냄
   const [moviesPopular, setPopularMovies] = useState([]);
 
+<<<<<<< HEAD
   const search = (query) => {
     fetch(
+=======
+  const search = async (query) => {
+    await fetch(
+>>>>>>> 6f4d3d0dd7da6b4ad11091fce0f5d4da5e65c72e
       `https://api.themoviedb.org/3/search/movie?api_key=3d606cf9dc17d29e0dec9772c8a629e6&languages=ko-kr&query=marvel&page=1&query=${query}`
     )
       .then((response) => response.json())
